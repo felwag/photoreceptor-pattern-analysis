@@ -23,8 +23,8 @@ For more information about usage and function of the CLIJx-assistant read here:
 - https://clij.github.io/clijx-assistant/
 
 To open the Weka pixel or label classifier, type in "Weka" in the ImageJ/FIJI search window and select:
-- pixel classifier: "Binary Weka Pixel Classifier (CLIJxWEKA, ijm, java)"
-- label classifier: "Weka Label Classifier (CLIJxWEKA, ijm, java)"
+- Pixel classifier: "Binary Weka Pixel Classifier (CLIJxWEKA, ijm, java)"
+- Label classifier: "Weka Label Classifier (CLIJxWEKA, ijm, java)"
 
 About usage of the:
 - Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below)
@@ -35,10 +35,10 @@ About usage of the:
 2. Copy the GitHub folder /demo/2_input to your computer.
 3. Open the macro file "HROHT_PhotoreceptorPatternAnalysis.ijm" from the GitHub folder /FIJI macro file.
 4. Adjust the following lines of the macro text:
-- line 43: insert the path of where you saved the GitHub folder /demo/2_input on your computer in between the "" signs.
-- line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
-- line 251: insert the name of the label classifier model used. If you want to use our classifier files, insert "label_classification_photoreceptor-pattern_Voelkner.model"
-- line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
+- Line 43: insert the path of where you saved the GitHub folder /demo/2_input on your computer in between the "" signs.
+- Line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
+- Line 251: insert the name of the label classifier model used. If you want to use our classifier files, insert "label_classification_photoreceptor-pattern_Voelkner.model"
+- Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
 5. Start macro by clicking Run.
 6. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
 7. Compare the results with the expected output files in GitHub folder /demo/3_expected-output.
