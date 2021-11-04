@@ -23,6 +23,10 @@ To train for detection of positive signal, the Weka pixel classifier from the CL
 
 For more information about usage of the CLIJx-assistant see here: https://clij.github.io/clijx-assistant/
 
+To open the Weka pixel or label classifier, type in "Weka" in the ImageJ/FIJI search window and select:
+- pixel classifier: "Binary Weka Pixel Classifier (CLIJxWEKA, ijm, java)"
+- label classifier: "Weka Label Classifier (CLIJxWEKA, ijm, java)"
+
 About usage of the:
 - Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below)
 - Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
