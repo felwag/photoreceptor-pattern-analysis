@@ -18,9 +18,9 @@ Install the Weka pixel and label classifier packages via the FIJI update site by
 # Software training for pixel and label classification
 To train for detection of positive signal, the Weka pixel classifier from the CLIJx-assistant was used; to distinguish between different cell sizes, the Weka label classifier from the CLIJx-assistant was used.
 
-For more information about usage and function of the CLIJx-assistant see here: 
-https://doi.org/10.1101/2020.11.19.386565
-https://clij.github.io/clijx-assistant/
+For more information about usage and function of the CLIJx-assistant read here: 
+- https://doi.org/10.1101/2020.11.19.386565
+- https://clij.github.io/clijx-assistant/
 
 To open the Weka pixel or label classifier, type in "Weka" in the ImageJ/FIJI search window and select:
 - pixel classifier: "Binary Weka Pixel Classifier (CLIJxWEKA, ijm, java)"
