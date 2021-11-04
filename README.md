@@ -1,6 +1,6 @@
 ## Contents
 
-- [1_Overview](# 1_Overview)
+- [1_Overview](#Overview)
 - [Repo Contents](#repo-contents)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
@@ -10,7 +10,7 @@
 - [Issues](https://github.com/ebridge2/lol/issues)
 - [Citation](#citation)
 
-# 1_Overview
+# Overview
 
 # 2_Repo Contents
 This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
