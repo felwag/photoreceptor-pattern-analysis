@@ -31,7 +31,8 @@ About usage of the:
 - Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
 
 # Workflow for a demo run
-1. To perform a test run with demo data from our dataset, the classifier files (.model files) from the GitHub folder /demo/1_classifier-files need to be moved to the ImageJ/FIJI program folder on your computer.
+To perform a test run with demo data from our dataset, our pixel and label classifier files can be used and no own software training is required (see section above).
+1. To use our classifier files, the files from the GitHub folder /demo/1_classifier-files need to be moved to the ImageJ/FIJI program folder on your computer.
 2. Copy the GitHub folder /demo/2_input to your computer.
 3. Open the macro file "HROHT_PhotoreceptorPatternAnalysis.ijm" from the GitHub folder /FIJI macro file.
 4. Adjust the following lines of the macro text:
