@@ -4,7 +4,7 @@
 # 2 Repo Contents
 This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
 
-In addition, there are demo data (folder "demo") to run the software on a sample input image. In this folder, the software training files are also saved, so the FIJI macro can be directly tested and no own software training on cell detection and classification is required (see section 5 below)
+In addition, there are demo data (folder "demo") to run the software on a sample input image. In this folder, the software training files are also saved, so the FIJI macro can be directly tested and no own software training on cell detection and classification is required. Meaning section 5 can be skipped and the demo run in section 6 can directly be performed.
 
 # 3 System Requirements
 This macro is supported for macOS and Windows. It has been tested on macOS Mojave (10.14), macOS Catalina (10.15) and Windows 10.
