@@ -5,9 +5,6 @@
 ...
 
 # System Requirements
-## Hardware Requirements
-...
-## Software Requirements
 This macro is supported for macOS and Windows. It has been tested on macOS Mojave (10.14), macOS Catalina (10.15) and Windows 10.
 
 # Installation Guide
