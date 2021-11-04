@@ -54,7 +54,7 @@ To open the Weka pixel or label classifier, type in "Weka" in the ImageJ/FIJI se
 - Label classifier: "Weka Label Classifier (CLIJxWEKA, ijm, java)"
 
 About usage of the:
-- Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below)
+- Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below) https://clij.github.io/assistant/clijx_weka_pixel_classifier.html
 - Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
 
 # 6_Workflow for a demo run
