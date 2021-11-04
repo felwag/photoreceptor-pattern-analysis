@@ -42,6 +42,6 @@ To perform a test run with demo data from our dataset, our pixel and label class
 - Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
 5. Start macro by clicking Run.
 6. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
-7. Compare the results with the expected output files in GitHub folder /demo/3_expected-output.
+7. Compare the results with the expected output files in GitHub folder /demo/3_expected-output. Note that for this expected output data, all cells were included (see step 4, Line 50 comment).
 
 
