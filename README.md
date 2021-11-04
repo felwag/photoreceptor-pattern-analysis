@@ -10,6 +10,21 @@
 - [Demo Run](#6_Workflow-for-a-demo-run)
 
 # 1_Overview
+This macro intends to analyze the photoreceptor pattern in the retina. It has been applied to human retinal organoids immunofluorescence-stained for Müller glia markers (SLC1A3+RLBP1) and imaged en face.
+
+The following parameters of the pattern are analyzed by the macro:
+- Cell classification into 3 types with different sizes
+- Number of cells
+- Cell sizes (area, in pixels)
+- Number of voronoi neighbors
+- Nearest neighbor distance (NND)
+- Edge cells
+
+This macro generates the following image files:
+- "label_classifier.png": label map showing all detected cells
+- "label_map.png": label classifier image showing cell type classification by pseudocoloring
+- "NND_map.png":
+- "voronoi_neighbors.png"
 
 # 2_Repo Contents
 This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
@@ -54,6 +69,6 @@ To perform a test run with demo data from our dataset, our pixel and label class
 - Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
 5. Start macro by clicking Run. For a single image it should be completed within seconds.
 6. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
-7. Compare the results with the expected output files in GitHub folder "/demo/3_expected-output". Note that for this expected output data, all cells were included (see step 4, Line 50 comment).
-
-
+7. Compare the results with the expected output files in GitHub folder "/demo/3_expected-output". Note that for this expected output data, all cells were included (see step 4, Line 50 comment). The follwing cell type numbers are assigned:
+- Type 1+2: large cell type (cones)
+- Type 3: small cell type (rods)
