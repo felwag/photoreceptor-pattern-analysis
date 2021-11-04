@@ -1,14 +1,11 @@
 ## Contents
 
-- [Overview](#1_Overview)
-- [Repo Contents](#repo-contents)
-- [System Requirements](#system-requirements)
-- [Installation Guide](#installation-guide)
-- [Demo](#demo)
-- [Results](#results)
-- [License](./LICENSE)
-- [Issues](https://github.com/ebridge2/lol/issues)
-- [Citation](#citation)
+- [Overview](#1_overview)
+- [Repo Contents](#2_repo-contents)
+- [System Requirements](#3_system-requirements)
+- [Installation Guide](#4_installation-guide)
+- [Software Training](#5_Software-training-for-pixel-and-label-classification)
+- [Demo Run](#6_Workflow-for-a-demo-run)
 
 # 1_Overview
 
@@ -17,7 +14,7 @@ This repository contains the FIJI macro used for photoreceptor pattern analysis 
 
 In addition, there are demo data (folder "demo") to run the software on a sample input image. In this folder, the software training files are also saved, so the FIJI macro can be directly tested and no own software training on cell detection and classification is required. Meaning section 5 can be skipped and the demo run in section 6 can directly be performed.
 
-# 3_System Requirements
+# 3_System-requirements
 This macro is supported for macOS and Windows. It has been tested on macOS Mojave (10.14), macOS Catalina (10.15) and Windows 10.
 
 # 4_Installation Guide
