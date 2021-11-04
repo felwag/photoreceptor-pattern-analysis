@@ -1,13 +1,15 @@
-# Overview
+# 1 Overview
 ...
 
-# Repo Contents
-...
+# 2 Repo Contents
+This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
 
-# System Requirements
+In addition, there are demo data (folder "demo") to run the software on a sample input image. In this folder, the software training files are also saved, so the FIJI macro can be directly tested and no own software training on cell detection and classification is required (see section 5 below)
+
+# 3 System Requirements
 This macro is supported for macOS and Windows. It has been tested on macOS Mojave (10.14), macOS Catalina (10.15) and Windows 10.
 
-# Installation Guide
+# 4 Installation Guide
 Install ImageJ or FIJI software: https://imagej.net/downloads.
 
 Install the Weka pixel and label classifier packages via the FIJI update site by selecting the following update sites and re-starting FIJI:
@@ -15,7 +17,7 @@ Install the Weka pixel and label classifier packages via the FIJI update site by
 - clij2
 - clijx-assistant
 
-# Software training for pixel and label classification
+# 5 Software training for pixel and label classification
 To train for detection of positive signal, the Weka pixel classifier from the CLIJx-assistant was used; to distinguish between different cell sizes, the Weka label classifier from the CLIJx-assistant was used.
 
 For more information about usage and function of the CLIJx-assistant read here: 
@@ -30,7 +32,7 @@ About usage of the:
 - Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below)
 - Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
 
-# Workflow for a demo run
+# 6 Workflow for a demo run
 To perform a test run with demo data from our dataset, our pixel and label classifier files can be used and no own software training is required (see section above).
 1. To use our classifier files, the files from the GitHub folder /demo/1_classifier-files need to be moved to the ImageJ/FIJI program folder on your computer.
 2. Copy the GitHub folder /demo/2_input to your computer.
