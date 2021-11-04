@@ -18,19 +18,19 @@ The following parameters of the pattern are analyzed by the macro:
 - Cell sizes (area, in pixels)
 - Number of voronoi neighbors
 - Nearest neighbor distance (NND)
-- Edge cells
+- Edge cells (touching the image border)
 
 This macro generates the following image files:
 - "label_classifier.png": label map showing all detected cells
 - "label_map.png": label classifier image showing cell type classification by pseudocoloring
-- "NND_map.png":
+- "NND_map.png"
 - "voronoi_neighbors.png"
 
 This macro generates the following data tables:
-- "1_cell-types-and-edge-cells.cls"
-- "2_NND.csv"
-- "3_area.csv"
-- "4_neighbor-number.xls"
+- "1_cell-types-and-edge-cells.cls": displaying detected cells, cell type identity and whether they are edge cells
+- "2_NND.csv": neareast neighbor distance for every detected cell (in pixel)
+- "3_area.csv": size (area) for every detected cell (in pixel)
+- "4_neighbor-number.xls": number of voronoi neighbors for every cell
 
 # 2_Repo Contents
 This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
