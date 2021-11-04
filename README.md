@@ -26,6 +26,12 @@ This macro generates the following image files:
 - "NND_map.png":
 - "voronoi_neighbors.png"
 
+This macro generates the following data tables:
+- "1_cell-types-and-edge-cells.cls"
+- "2_NND.csv"
+- "3_area.csv"
+- "4_neighbor-number.xls"
+
 # 2_Repo Contents
 This repository contains the FIJI macro used for photoreceptor pattern analysis in human retinal organoids (folder "FIJI macro file"). 
 
