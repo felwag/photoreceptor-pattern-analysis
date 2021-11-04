@@ -18,6 +18,13 @@ Install the Weka pixel and label classifier packages via the FIJI update site by
 - clij2
 - clijx-assistant
 
+# Software training for pixel and label classification
+To train for detection of positive signal, the Weka pixel classifier from the CLIJx-assistant was used; to distinguish between different cell sizes, the Weka label classifier from the CLIJx-assistant was used.
+For more information about usage of the CLIJx-assistant see here: https://clij.github.io/clijx-assistant/
+About usage of the:
+- Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below)
+- Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
+
 # Workflow for a demo run
 1. To perform a test run with demo data from our dataset, the classifier files (.model files) from the GitHub folder /demo/1_classifier-files need to be moved to the ImageJ/FIJI program folder on your computer.
 2. Copy the GitHub folder /demo/2_input to your computer.
@@ -31,6 +38,4 @@ Install the Weka pixel and label classifier packages via the FIJI update site by
 6. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
 7. Compare the results with the expected output files in GitHub folder /demo/3_expected-output.
 
-# Macro Adjustments
-- line 43: insert the path of where the input files are saved
-- 
+
