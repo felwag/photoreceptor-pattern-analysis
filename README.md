@@ -73,12 +73,12 @@ To perform a test run with demo data from our dataset, our pixel and label class
 2. Copy the GitHub folder "/demo/2_input" to your computer.
 3. Open the macro file "HROHT_PhotoreceptorPatternAnalysis.ijm" from the GitHub folder "/FIJI macro file" in FIJI.
 4. Adjust the following lines of the macro text:
-- Line 43: insert the path of where you saved the GitHub folder "/demo/2_input" on your computer in between the "" signs.
+- Line 43: insert the path of where you saved the GitHub folder "/demo/2_input" on your computer in between the "" signs. Check whether the path is written in purple. If not, type it in manually (copying does not work) and/or change slash to backslash or vice versa. 
 - Line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
 - Line 251: insert the name of the label classifier model used. If you want to use our classifier files, insert "label_classification_photoreceptor-pattern_Voelkner.model"
 - Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
 5. Start macro by clicking Run. For a single image it should be completed within a few seconds.
-- Note: If you get the error message "No Log window found" check whether the indicated path in line 43 is correct or whether any slash or backslash is missing. This is usually the reason.
+- Note: If you get the error message "No Log window found" check whether the indicated path in line 43 is correct or whether any slash or backslash is missing. This is usually the reason!
 7. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
 8. Compare the results with the expected output files in GitHub folder "/demo/3_expected-output". Note that for this expected output data, all cells were included (see step 4, Line 50 comment). The follwing cell type numbers are assigned:
 - Type 1+2: large cell type (cones)
