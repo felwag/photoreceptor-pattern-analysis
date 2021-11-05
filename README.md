@@ -43,10 +43,14 @@ This macro is supported for macOS and Windows. It has been tested on macOS Mojav
 # 4_Installation Guide
 Install ImageJ or FIJI software: https://imagej.net/downloads.
 
-Install the Weka pixel and label classifier packages via the FIJI update site (Menu: Help > Update... > Manage Update sites) by selecting the following update sites and re-starting FIJI:
+Install the Weka pixel and label classifier packages via the FIJI update site by selecting the following update sites and re-starting FIJI.
+
+Go via: Menu: "Help" > "Update..." > "Manage Update sites" > select the following update sites:
 - clij
 - clij2
 - clijx-assistant
+
+Then click "Close" > "Apply changes" > re-start FIJI
 
 # 5_Software training for pixel and label classification
 To train for detection of positive signal, the Weka pixel classifier from the CLIJx-assistant was used; to distinguish between different cell sizes, the Weka label classifier from the CLIJx-assistant was used.
