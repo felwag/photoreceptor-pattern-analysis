@@ -81,5 +81,5 @@ To perform a test run with demo data from our dataset, our pixel and label class
 - Note: If you get the error message "No window with the title "Log" found" check whether the indicated path in line 43 is correct, whether it ends with the folder name ("/2input/") and whether any slash or backslash is missing. This is usually the reason! Note that the path must always end with a slash/backslash.
 7. The output files and excel tables will be saved in the same folder that has been used as input (see step 4).
 8. Compare the results with the expected output files in GitHub folder "/demo/3_expected-output". Note that for this expected output data, all cells were included (see step 4, Line 50 comment). The follwing cell type numbers are assigned:
-- Type 1+2: large cell type (cones)
-- Type 3: small cell type (rods)
+- Type 1 (rose pseudocolored)+Type 2 (green pseudocolored): large cell type (cones)
+- Type 3 (yellow pseudocolored): small cell type (rods)
