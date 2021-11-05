@@ -76,10 +76,10 @@ To perform a test run with demo data from our dataset, our pixel and label class
 - Line 43: insert the path of where you saved the GitHub folder "/demo/2input" on your computer in between the "" signs. Check whether the path is written in purple. If not, type it in manually (copying usually does not work) and/or change slash to backslash or vice versa. 
 - Line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
 - Line 251: insert the name of the label classifier model used. If you want to use our classifier files, insert "label_classification_photoreceptor-pattern_Voelkner.model"
-- Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114. In our demo output data, this was set to "true".
+- Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114. For our demo output data, this was set to "true".
 5. Start macro by clicking Run. For a single image it should be completed within a few seconds.
-- Note: If you get the error message "No window with the title "Log" found" check whether the indicated path in line 43 is correct, whether it ends with the folder name ("/2input/") and whether any slash or backslash is missing. This is usually the reason! Note that the path must always end with a slash/backslash.
+- If you get the error message "No window with the title "Log" found": Check whether the indicated path in line 43 is correct, whether it ends with the folder name ("/2input/") and whether any slash or backslash is missing. This is the most common reason! Note that the path must always end with a slash/backslash.
 7. The output files and excel tables will be saved in the same folder that has been used as input (see step 4).
 8. Compare the results with the expected output files in GitHub folder "/demo/3_expected-output". Note that for this expected output data, all cells were included (see step 4, Line 50 comment). The follwing cell type numbers are assigned:
-- Type 1 (rose pseudocolored)+Type 2 (green pseudocolored): large cell type (cones)
+- Type 1 (rose pseudocolored) + Type 2 (green pseudocolored): large cell type (cones)
 - Type 3 (yellow pseudocolored): small cell type (rods)
