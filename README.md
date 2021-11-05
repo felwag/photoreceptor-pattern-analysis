@@ -10,7 +10,7 @@
 - [Demo Run](#6_Workflow-for-a-demo-run)
 
 # 1_Overview
-This macro intends to analyze the photoreceptor pattern in the retina. It has been applied to human retinal organoids immunofluorescence-stained for Müller glia markers (SLC1A3+RLBP1) and imaged en face.
+This macro intends to analyze the photoreceptor pattern in the retina. It has been applied to human retinal organoids immunostained for Müller glia markers (SLC1A3+RLBP1) and imaged en face.
 
 The following parameters of the pattern are analyzed by the macro:
 - Cell classification into 3 types with different sizes
