@@ -71,7 +71,7 @@ About usage of the:
 To perform a test run with demo data from our dataset, our pixel and label classifier files can be used and no own software training is required (see section above).
 1. To use our classifier files, the files from the GitHub folder "/demo/1_classifier-files" (not the whole folder!) need to be moved to the FIJI program folder on your computer.
 2. Copy the GitHub folder "/demo/2_input" to your computer.
-3. Open the macro file "HROHT_PhotoreceptorPatternAnalysis.ijm" from the GitHub folder "/FIJI macro file".
+3. Open the macro file "HROHT_PhotoreceptorPatternAnalysis.ijm" from the GitHub folder "/FIJI macro file" in FIJI.
 4. Adjust the following lines of the macro text:
 - Line 43: insert the path of where you saved the GitHub folder "/demo/2_input" on your computer in between the "" signs.
 - Line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
