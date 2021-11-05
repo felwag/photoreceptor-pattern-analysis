@@ -43,7 +43,7 @@ This macro is supported for macOS and Windows. It has been tested on macOS Mojav
 # 4_Installation Guide
 Install ImageJ or FIJI software: https://imagej.net/downloads.
 
-Install the Weka pixel and label classifier packages via the FIJI update site (Menu: Help > Update...) by selecting the following update sites and re-starting FIJI:
+Install the Weka pixel and label classifier packages via the FIJI update site (Menu: Help > Update... > Manage Update sites) by selecting the following update sites and re-starting FIJI:
 - clij
 - clij2
 - clijx-assistant
