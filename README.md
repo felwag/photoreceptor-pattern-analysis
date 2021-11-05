@@ -23,7 +23,7 @@ The following parameters of the pattern are analyzed by the macro:
 This macro generates the following image files:
 - "label_classifier.png": label map showing all detected cells
 - "label_map.png": label classifier image showing cell type classification by pseudocoloring
-- "NND_map.png"
+- "NND_map.png": note that edge cells (that touch the image borders) are not displayed on this image
 - "voronoi_neighbors.png"
 
 This macro generates the following data tables:
