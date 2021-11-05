@@ -76,7 +76,7 @@ To perform a test run with demo data from our dataset, our pixel and label class
 - Line 43: insert the path of where you saved the GitHub folder "/demo/2_input" on your computer in between the "" signs. Check whether the path is written in purple. If not, type it in manually (copying does not work) and/or change slash to backslash or vice versa. 
 - Line 76: insert the name of the pixel classifier model used. If you want to use our classifier files, insert "pixel_classification_photoreceptor-pattern_Voelkner.model"
 - Line 251: insert the name of the label classifier model used. If you want to use our classifier files, insert "label_classification_photoreceptor-pattern_Voelkner.model"
-- Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114.
+- Line 50: set to "true" if all cells should be included, set to "false" to exclude labels outside the size range indicated in lines 113+114. In our demo output data, this was set to "true".
 5. Start macro by clicking Run. For a single image it should be completed within a few seconds.
 - Note: If you get the error message "No Log window found" check whether the indicated path in line 43 is correct or whether any slash or backslash is missing. This is usually the reason!
 7. The output files and excel tables will be saved in the same folder that has been used as inout (see step 4).
