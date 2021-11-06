@@ -28,7 +28,7 @@ This macro generates the following image files:
 
 This macro generates the following data tables:
 - "1_cell-types-and-edge-cells.cls": displaying detected cells, cell type identity and whether they are edge cells
-- "2_NND.csv": neareast neighbor distance for every detected cell (in pixel)
+- "2_NND.csv": nearest neighbor distance for every detected cell (in pixel)
 - "3_area.csv": size (area) for every detected cell (in pixel)
 - "4_neighbor-number.xls": number of voronoi neighbors for every cell
 
@@ -63,7 +63,7 @@ To open the Weka pixel or label classifier, type in "Weka" in the ImageJ/FIJI se
 - Pixel classifier: "Binary Weka Pixel Classifier (CLIJxWEKA, ijm, java)"
 - Label classifier: "Weka Label Classifier (CLIJxWEKA, ijm, java)"
 
-About usage of the:
+About the usage of the:
 - Pixel classifier: follow the commands in the Log window, otherwise usage is similar to the label classifier (see below) https://clij.github.io/assistant/clijx_weka_pixel_classifier.html
 - Label classifier: https://clij.github.io/clijx-assistant/clijx_weka_label_classifier
 
