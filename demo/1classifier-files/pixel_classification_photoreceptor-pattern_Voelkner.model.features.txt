@@ -1,0 +1,1 @@
+original gaussianblur=1 gaussianblur=5 sobelofgaussian=1 sobelofgaussian=5
