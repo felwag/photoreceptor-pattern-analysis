@@ -1,6 +1,0 @@
-/Users/wagnerf/Desktop/o9a3/MP12_patterning_o1a1_z19_ROI_ts.tif
-72 cells detected
-Mean distance to 1 closest neighbors (in pixels): 33.8463
-there are 4 with type1
-there are 34 with type2
-there are 34 with type3
