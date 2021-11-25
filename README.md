@@ -10,9 +10,14 @@
 - [Demo Run](#6_Workflow-for-a-demo-run)
 
 # 1_Overview
-This macro intends to analyze the photoreceptor pattern in the retina. It has been applied to human retinal organoids immunostained for Müller glia markers (SLC1A3+RLBP1) and imaged en face.
+This FIJI macro intends to analyze the photoreceptor pattern in the retina. It has been applied to human retinal organoids immunostained for Müller glia markers (SLC1A3+RLBP1) and imaged en face (Völkner et al., in revision).
 
-The following parameters of the pattern are analyzed by the macro:
+AUTHORS OF THE FIJI SCRIPT: Felix Wagner, Robert Haase
+
+INSTITUTE: Center for Regenerative Therapies Dresden (CRTD), Technische Universität Dresden, Dresden, Germany
+
+
+The following parameters of the photoreceptor pattern are analyzed by the macro:
 - Cell classification into 3 types with different sizes
 - Number of cells
 - Cell sizes (area, in pixels)
